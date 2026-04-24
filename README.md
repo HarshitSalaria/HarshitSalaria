@@ -43,3 +43,22 @@
 ![GitHub Streak](https://streak-stats.demolab.com?user=harshitsalaria&theme=radical)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=harshitsalaria&layout=compact&theme=radical)
+
+# 🎯 Career Recommendation App
+
+## 📌 Description
+This app predicts suitable career based on user skills using ML.
+
+## ⚙️ Tech Used
+- Python
+- Scikit-learn
+- Streamlit
+
+## 🚀 Features
+- Skill-based prediction
+- Simple UI
+- Fast results
+
+## ▶️ Run Locally
+pip install -r requirements.txt
+streamlit run app.py
