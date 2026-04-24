@@ -7,11 +7,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/harsh.it_8)
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harshitsalaria22@gmail.com)
-## 📄 Resume
 
-<a href="https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/Your_Resume.pdf" target="_blank">
-  📄 View Resume
-</a>
 ## Tech Stack
 
 ### 💻 Web Development
@@ -39,3 +35,11 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 -->
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=harshitsalaria&show_icons=true&theme=radical)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=harshitsalaria&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=harshitsalaria&layout=compact&theme=radical)
