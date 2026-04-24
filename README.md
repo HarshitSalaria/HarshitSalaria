@@ -1,5 +1,8 @@
-## Hi there 👋
-
+## 🚀 Tech Stack
+![HTML](https://img.shields.io/badge/HTML-orange)
+![CSS](https://img.shields.io/badge/CSS-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
+![React](https://img.shields.io/badge/React-blue)
 <!--
 **HarshitSalaria/HarshitSalaria** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
