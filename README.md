@@ -62,3 +62,35 @@ This app predicts suitable career based on user skills using ML.
 ## ▶️ Run Locally
 pip install -r requirements.txt
 streamlit run app.py
+
+import streamlit as st
+import pickle
+import numpy as np
+
+# Load model
+model = pickle.load(open("model.pkl", "rb"))
+
+st.set_page_config(page_title="Career Predictor", page_icon="🎯")
+
+st.title("🎯 Career Recommendation System")
+st.markdown("### Select your skills below:")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    python = st.checkbox("Python")
+    java = st.checkbox("Java")
+    web = st.checkbox("Web Development")
+
+with col2:
+    ml = st.checkbox("Machine Learning")
+    math = st.checkbox("Mathematics")
+    communication = st.checkbox("Communication Skills")
+
+st.markdown("---")
+
+if st.button("🚀 Predict Career"):
+    features = np.array([[python, java, web, ml, math, communication]])
+    prediction = model.predict(features)
+
+    st.success(f"✅ Recommended Career: **{prediction[0]}**")
